@@ -14,7 +14,7 @@ namespace IceSpearFix
         public const string PluginGUID = $"com.{PluginAuthor}.{PluginName}";
         public const string PluginAuthor = "Gorakh";
         public const string PluginName = "IceSpearFix";
-        public const string PluginVersion = "1.0.1";
+        public const string PluginVersion = "1.0.2";
 
         static IceSpearFixPlugin _instance;
         internal static IceSpearFixPlugin Instance => _instance;
