@@ -14,7 +14,7 @@ namespace IceSpearFix
         public const string PluginGUID = $"com.{PluginAuthor}.{PluginName}";
         public const string PluginAuthor = "Gorakh";
         public const string PluginName = "IceSpearFix";
-        public const string PluginVersion = "1.0.2";
+        public const string PluginVersion = "1.0.3";
 
         static IceSpearFixPlugin _instance;
         internal static IceSpearFixPlugin Instance => _instance;
@@ -33,7 +33,7 @@ namespace IceSpearFix
                 GameObject iceBombProjectilePrefab = handle.Result;
                 if (iceBombProjectilePrefab)
                 {
-                    iceBombProjectilePrefab.layer = LayerIndex.projectile.intVal;
+                    iceBombProjectilePrefab.layer = LayerIndex.projectileWorldOnly.intVal;
                 }
                 else
                 {

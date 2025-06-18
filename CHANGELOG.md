@@ -1,3 +1,7 @@
+**1.0.3 Changes:**
+
+* Fixed Ice Spear not piercing enemies
+
 **1.0.2 Changes:**
 
 * Nothing at all happened don't worry about it.
